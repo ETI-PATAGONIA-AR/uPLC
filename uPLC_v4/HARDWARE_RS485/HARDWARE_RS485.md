@@ -1,7 +1,3 @@
-#==================================================================
-# uPLC_v3/HARDWARE_RS485.md - ETI Patagonia - prof.martintorres@educ.ar
-#==================================================================
-
 # Guía de Instalación de Hardware RS485
 
 Esta guía detalla cómo conectar correctamente el módulo RS485 al Arduino NANO para comunicación Modbus RTU.
@@ -13,7 +9,6 @@ Esta guía detalla cómo conectar correctamente el módulo RS485 al Arduino NANO
 - Voltaje: 5V
 - Velocidad: Hasta 2.5 Mbps
 - Distancia: Hasta 1200m
-- Costo: ~$1-2 USD
 
 ### Other Options:
 - **XY-017**: MAX485 en PCB compacto
@@ -330,18 +325,6 @@ Para ambientes industriales ruidosos:
 - **Analizador USB-RS485**: Para debugging
 - **Osciloscopio**: Para verificar señales
 - **Multímetro**: Para verificar voltajes y resistencias
-
-## Proveedores Recomendados
-
-### Argentina:
-- ElectroMercado: Módulos MAX485
-- DigiKey Argentina: Componentes originales
-- MercadoLibre: Módulos compatibles
-
-### Internacional:
-- AliExpress: Módulos económicos
-- Mouser/DigiKey: Componentes originales
-- Amazon: Envío rápido
 
 ## Referencias Técnicas
 
