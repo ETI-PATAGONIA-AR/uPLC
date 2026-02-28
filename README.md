@@ -14,6 +14,9 @@ permitiendo que un diseño visual se transforme en un proyecto de firmware compl
 
 <img width="813" height="571" alt="SIM_uPLC_v3" src="https://github.com/user-attachments/assets/32f0911d-ae4e-486d-a6f3-76e01a7e884b" />
 
+<img width="1366" height="720" alt="Ctl_VENTILACION_SIMU" src="https://github.com/user-attachments/assets/27719060-fc7e-43a2-91ae-bb8316cdf97d" />
+
+
 ## 🆕 Novedades en la version v4.1: Se suman Modbus RS485 - Q6 
 
 ### Nuevas Características
