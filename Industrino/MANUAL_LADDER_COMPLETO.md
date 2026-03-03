@@ -1,8 +1,4 @@
-#==================================================================
-# MANUAL DE PROGRAMACIÓN LADDER - uPLC v4
-# "De Cero a Héroe" - Para personas sin conocimientos previos
-# ETI Patagonia - prof.martintorres@educ.ar
-#==================================================================
+<img width="1024" height="1536" alt="PORTADA_uPLC_2" src="https://github.com/user-attachments/assets/a5245d4d-c2d7-447d-8f5d-fe7c6cc486db" />
 
 ╔══════════════════════════════════════════════════════════════════╗
 ║                                                                  ║
