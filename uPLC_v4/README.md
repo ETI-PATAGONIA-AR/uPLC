@@ -1,4 +1,4 @@
-# uPLC v4 - Conversor Ladder a Arduino
+# uPLC v5 - Conversor Ladder a Arduino
 
 ## 🆕 Novedades v4.1 - Modbus RS485
 
