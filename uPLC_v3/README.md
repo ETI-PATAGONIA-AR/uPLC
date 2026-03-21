@@ -1,4 +1,4 @@
-# uPLC v3 - Conversor Ladder a Arduino (VERSION DEMO GRATUITA)
+# uPLC v3 - Conversor Ladder a Arduino (DEMO GRATUITA)
 
 <img width="1366" height="720" alt="uPLC_v3" src="https://github.com/user-attachments/assets/5ea9ebd1-25c3-435a-9b89-0e9a143f8035" />
 
