@@ -1,4 +1,4 @@
-# uPLCv6 Kids & Seniors 🎮
+# uPLCv6 Blocks 🎮
 
 <img width="662" height="452" alt="portada_uPLCv6" src="https://github.com/user-attachments/assets/f4e56980-15dc-4c0b-ae59-ba959d0647f0" />
 
@@ -8,7 +8,7 @@ Había una vez un electricista que toda su vida diseñó circuitos con relés, c
 
 Había una vez un nene de 10 años que jamás vio un relé, jamás olió un motor sobrecalentado o escucho el tableteo de un contactor, pero sí sabe desbloquear un celular antes que su abuelo. Juega, crea, comparte. Pero cuando quiere hacer un proyecto real -encender una luz, sensar la temperatura, mover un motor- el salto parece imposible: tiene que aprender programación, sintaxis, compilación... un mundo abstracto que no le conecta con lo tangible.
 
-**uPLCv6 Kids & Seniors** es ese puente.
+**uPLCv6 Blocks & Ladder** es ese puente.
 
 No es solo un editor de bloques. Es una herramienta que busca acortar la brecha tecnológica entre quienes aprendieron con lógica de contactos y quienes nacieron con pantallas táctiles. Es un espacio donde un veterano de la industria puede entender a su nieto, y donde un niño puede mostrarle a su abuelo que "programar" no es tan distinto de "conectar cables".
 
@@ -18,10 +18,12 @@ No es solo un editor de bloques. Es una herramienta que busca acortar la brecha 
 
 | Modo | Para quién es | Cómo se programa |
 |------|---------------|------------------|
-| **🎮 Junior (Bloques)** | Niños, principiantes, adultos sin experiencia previa | Arrastrás y encastrás bloques visuales |
+| **🎮 Blocks** | Niños, principiantes, adultos sin experiencia previa | Arrastrás y encastrás bloques visuales |
 | **⚡ Ladder** | Técnicos, electricistas, veteranos de la industria | Dibujás contactos y bobinas como en un PLC |
 
 Ambos generan código Arduino (.ino) listo para cargar en tu placa.
+
+Puedes ver un video de uPLC Blocks en: https://youtu.be/49mqdL1b_lU
 
 ---
 
