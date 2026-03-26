@@ -34,15 +34,17 @@ mundo de los microcontroladores.
 
 Mi más sincero agradecimiento a Massimo Banzi, David Cuartielles, Tom Igoe, Gianluca Martino y David Mellis. Su visión no solo creó una placa, sino un lenguaje universal que hoy nos permite llevarte este interprete para la programación de un control lógico programable (PLC) a tu aula y cada escritorio mediante uPLC.
 
-<img width="1366" height="720" alt="uPLC_v3" src="https://github.com/user-attachments/assets/5ea9ebd1-25c3-435a-9b89-0e9a143f8035" />
+<img width="2851" height="976" alt="uPLC" src="https://github.com/user-attachments/assets/f7178b6f-e769-4e0a-9811-61ec0d319e87" />
 
-[![Ver el video de la version 3 en YouTube](https://img.youtube.com)](https://www.youtube.com/watch?v=C1CCBDz9oY0)
+[![Ver el video de la version LADDER en YouTube](https://img.youtube.com)](https://www.youtube.com/watch?v=C1CCBDz9oY0)
+
+[![Ver el video de la version Blocks en YouTube](https://img.youtube.com)](https://www.youtube.com/watch?v=49mqdL1b_lU)
 
 <img width="901" height="633" alt="simu_uPLC_v5" src="https://github.com/user-attachments/assets/ab5d77d6-26f9-4c23-9075-6391f31e70d1" />
 
 <img width="1366" height="720" alt="Ctl_VENTILACION_SIMU" src="https://github.com/user-attachments/assets/27719060-fc7e-43a2-91ae-bb8316cdf97d" />
 
-## 🆕 Novedades en la version v5.1:
+## 🆕 Novedades en la version LADDER v5.1:
 
 ### Nuevas Características
 1. ✅ **Comunicación Modbus RS485**: Protocolo industrial estándar
@@ -116,6 +118,64 @@ Donde X = 0 o 1 (estado digital), PWM = 00-99% (duty cycle)
 <img width="305" height="431" alt="eBook_3" src="https://github.com/user-attachments/assets/ffd868cd-2083-4990-9dc0-f51d29bb30c0" />
 
 <img width="305" height="431" alt="eBook_4" src="https://github.com/user-attachments/assets/a32f61e6-0acd-4aad-b13f-32941dbccb77" />
+
+--- 
+
+## 🆕 Novedades en la version BLOCKS v6:
+
+### Nuevas Características
+## Lo que podés hacer con cada categoría
+
+### 🟡 Inicio
+Acá empieza todo. Acá definís qué pasa cuando encendés el sistema ("al iniciar") y qué se repite siempre ("para siempre"). Es como el pulsador con auto enclavamiento para encender una maquina, el void setup y el loop de Arduino, pero con palabras que se entienden.
+
+### 🔧 Funciones
+Acá aprendés algo fundamental: el concepto de "subrutina", de código reutilizable. "Llamar" a una función y "retornar" cuando termina. Es el mismo concepto que en un PLC se llama GOSUB. Pero ahora lo ves, lo encastrás, lo entendés.
+
+### 🔷 Control
+Los caminos del programa. Acá están los "si... entonces", los "si... sino", los bucles "repetir N veces", "mientras...", "para...". Acá el programa decide, bifurca, itera. Es la lógica misma.
+
+### 🟢 Lógica
+Las operaciones booleanas: Y, O, NO, comparaciones. Acá decis cuándo se enciende algo, cuándo se apaga, cuándo el programa va por un camino u otro.
+
+### 📦 Variables y 🧮 Matemática
+Donde guardás valores (V0 a V9) y hacés cuentas (sumar, restar, multiplicar, mapear rangos,azar). Acá el programa "recuerda" y "calcula".
+
+### 🔘 Entradas
+Los ojos del sistema: botones, sensores, el mundo físico. Botones I1 a I7, entradas analógicas A0 y A1.
+
+### 💡 Salidas
+Las manos del sistema: luces, reles, actuadores. Salidas Q1 a Q5, control PWM.
+
+### ⏱ Tiempo y ⏳ Timers
+Esperar, medir tiempo, temporizadores que encienden o apagan con retardo. El tiempo es clave en todo automatismo.
+
+### 🔢 Contadores
+Contar cosas: impulsos, eventos, partes. Contadores ascendentes, descendentes, con límite.
+
+### 🖥 LCD
+La pantalla donde el sistema te habla. Escribir texto, mostrar números, mostrar caras (feliz, triste, sorprendida). Un niño puede hacer que su proyecto "exprese" emociones.
+
+### 🎵 Sonido
+El buzzer para hacer beeps, tonos, notas musicales, melodías predefinidas. Un piano con botones, una alarma, una canción de cumpleaños.
+
+### ⚙️ Motores
+Control de motor DC (con puente H), servo, PWM. Mover cosas reales.
+
+### 🌡 Sensores
+LM35 (temperatura), fotoresistencia (luz), HC-SR04 (distancia), joystick, sensor de lluvia, sensor de obstáculos. Todo lo que el entorno pueda aportar como información.
+
+### 📻 Serial/Radio
+Comunicación: enviar y recibir datos por USB o por radio (SoftwareSerial). El sistema hablando con el exterior.
+
+### 🎮 Juego
+Esto es lo más lindo: sprites, movimiento, colisiones, puntuación, vidas. Un niño puede construir su propio juego en el LCD y sentir que creó algo suyo.
+
+### 📌 Pines
+Control directo de pines para cuando necesitás algo específico.
+
+---
+
 
 ### PROXIMA ACTUALIZACION DE uPLC
 1. ✅ Soporte para hardware con Arduino NANO
