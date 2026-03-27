@@ -40,6 +40,14 @@ Mi más sincero agradecimiento a Massimo Banzi, David Cuartielles, Tom Igoe, Gia
 
 [![Ver el video de la version Blocks en YouTube](https://img.youtube.com)](https://www.youtube.com/watch?v=49mqdL1b_lU)
 
+[![Ver un DEMO de juegos con la version Blocks en YouTube](https://img.youtube.com)](https://www.youtube.com/watch?v=15fIcUH5IJs)
+
+![PCB1](https://github.com/user-attachments/assets/cdef1875-237e-40d4-a2ae-8b6ee202cb1a)
+
+![PCB2](https://github.com/user-attachments/assets/c38c6cb8-3e8a-41b8-955d-9b668b87bc50)
+
+![PCB3](https://github.com/user-attachments/assets/1df96635-5805-4548-b157-f8a4c84b3d90)
+
 <img width="901" height="633" alt="simu_uPLC_v5" src="https://github.com/user-attachments/assets/ab5d77d6-26f9-4c23-9075-6391f31e70d1" />
 
 <img width="1366" height="720" alt="Ctl_VENTILACION_SIMU" src="https://github.com/user-attachments/assets/27719060-fc7e-43a2-91ae-bb8316cdf97d" />
