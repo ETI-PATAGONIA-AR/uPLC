@@ -75,69 +75,7 @@ Ambos generan código Arduino (.ino) listo para cargar en tu placa.
 
 ## 🆕 Novedades en la version LADDER v5.1:
 
-### Nuevas Características
-1. ✅ **Comunicación Modbus RS485**: Protocolo industrial estándar
-2. ✅ **5 Salidas Digitales**: Q1-Q2-Q4-Q5-Q6
-3. ✅ **1 Salida PWM**: Q3
-4. ✅ **7 Entradas Digitales**: I1-I7
-5. ✅ **10 Registros Modbus**: MB0-MB9 para comunicación
-6. ✅ **Nuevos Bloques Ladder**:
-   - **MB_SLAVE**: Condición sobre registro Modbus
-   - **MB_READ**: Leer registro de dispositivo esclavo
-   - **MB_WRITE**: Escribir registro a dispositivo esclavo
-   - **PID**: Bloque para funciones que requieran un control Proporcional Integral y Derivativo
-   - **ADD**: Operaciones matemáticas que requieran suma de variables / constantes
-   - **SUB**: Operaciones matemáticas que requieran resta de variables / constantes
-   - **MUL**: Operaciones matemáticas que requieran multiplicacion de variables / constantes
-   - **DIV**: Operaciones matemáticas que requieran division de variables / constantes
-   - **CTU**: Contador ascendente
-   - **CTD**: Contador descendente 
-   - **CTR**: Reset de Contadores
-   - **CMP_GT**: Comparador "Mayor que..." 
-   - **CMP_LT**: Comparador "Menor que..." 
-   - **CMP_EQ**: Comparador "Igual que..."
-   - **FUN_&**: Funcion Booleana AND
-   - **FUN_OR**: Funcion Booleana OR
-   - **FUN_NOT**: Funcion Booleana NOT
-   - **TON**: Temporizador ON-delay
-   - **TOF**: Temporizador OFF-delay
-   - **COIL**: Bobina Normal Abierto
-   - **COIL_NC**: Bobina Normal Cerrada/Negada
-   - **COIL_RM**: Bobina Registro de Memoria
-   - **NO**: Contacto Normalmente Abierto
-   - **NC**: Contacto Normalmente Cerrado
-   - **ADC**: Entrada Analogica
-   - **PWM**: Salida con Modulacion por Ancho de Pulso
-   - **SET_VAR**: Guardar dato en Variables
-7. ✅ **Interfaz mejorada**:
-   - Incremento y decremento con detección de flanco
-   - Seguridad anti desbordes de variables
-8. ✅ **Compatible con PLCs industriales**:
-   Se trabajo para estar lo más cercano al estándar IEC 61131-3 integrando nuevos bloques de funciones y Protocolo Modbus RTU estándar
-
-### Nuevas Funcionalidades
-1. ✅ **Creación de carpetas**: Al guardar un proyecto, se crea una carpeta con el nombre del proyecto
-2. ✅ **Archivos generados**: 
-   - `proyecto.uplc` (archivo Ladder)
-   - `proyecto.ino` (sketch Arduino listo para cargar)
-3. ✅ **Display LCD I2C 20x4**: Soporte integrado para mostrar estados en tiempo real
-   - Dirección I2C: 0x27
-   - Conectado en A4 (SDA) y A5 (SCL)
-   - Muestra entradas digitales (I1-I7)
-   - Muestra salidas digitales (Q1-Q6)
-   - Muestra valores analógicos (A0, A1)
-   - Muestra duty cycle del PWM (0-100%)
-
-## Formato del Display LCD
-```
-Línea 0: I1 2 3 4 5 6 7 A0XXX
-Línea 1:  X X X X X X X A1XXX
-Línea 2: Q1 2 3 4 5 6 7 PWMXX
-Línea 3:  X X X X X X X
-```
-Donde X = 0 o 1 (estado digital), PWM = 00-99% (duty cycle)
-
-### Curso Manual de uPLC
+## Curso Manual de uPLC
 1. ✅ el nuevo manual que adjunto, inicia con un breve curso de programación ladder, y con ejemplos prácticos les enseño a usar cada modulo de función de uPLC.
 
 <img width="303" height="429" alt="eBook_1" src="https://github.com/user-attachments/assets/08143343-571c-4278-baed-fc7b7bb8dfd4" />
