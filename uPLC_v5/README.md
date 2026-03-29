@@ -5,7 +5,7 @@
 
 Si venís del mundo de los PLCs, del Autómata programable o de los tableros con lógica cableada, el modo Ladder te va a resultar familiar. Acá no se usan bloques, se dibuja.
 
-Es la misma lógica que usabas en los painéis de relés, pero ahora se convierte automáticamente en código Arduino. Y lo mejor: si ya sabés ladder, no tenés que aprender nada nuevo para empezar a programar microcontroladores.
+Es la misma lógica que usabas en los paneles de relés, pero ahora se convierte automáticamente en código Arduino. Y lo mejor: si ya sabés ladder, no tenés que aprender nada nuevo para empezar a programar microcontroladores.
 
 ### Elementos disponibles en Ladder
 
