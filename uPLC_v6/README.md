@@ -1,7 +1,5 @@
 # uPLCv6 Blocks 🎮
 
-<img width="662" height="452" alt="portada_uPLCv6" src="https://github.com/user-attachments/assets/f4e56980-15dc-4c0b-ae59-ba959d0647f0" />
-
 ## El puente entre dos mundos
 
 Había una vez un electricista que toda su vida diseñó circuitos con relés, contactores y temporizadores mecánicos. Escuchaba el zumbido característico de las bobinas zumbando por suciedad, el tableteo cuando algo se pegaba, y sabía detectar el cable recalentado por el color del aislante e incluso, sus tester naturales (sus manos y olfato)... Esa era la vieja escuela; Montaba tableros con lógica cableada, probaba con multímetro y pinza amperométrica, y dormía tranquilo sabiendo que sus automatismos funcionaban sin bugs/errores, ni actualizaciones. Hoy, a sus 60 años, ve el mundo cambiar: los PLCs ahora se programan en ladder, pero también en bloques, en código... y él se quedó en el medio, sin puente hacia el otro lado.
