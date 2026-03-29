@@ -90,56 +90,30 @@ Ambos generan código Arduino (.ino) listo para cargar en tu placa.
 
 ## 🆕 Novedades en la version BLOCKS v6:
 
-### Nuevas Características
-## Lo que podés hacer con cada categoría
+## Nuevas Características
 
-### 🟡 Inicio
-Acá empieza todo. Acá definís qué pasa cuando encendés el sistema ("al iniciar") y qué se repite siempre ("para siempre"). Es como el pulsador con auto enclavamiento para encender una maquina, el void setup y el loop de Arduino, pero con palabras que se entienden.
+- Integracion del sistema para el hardware Arduino UNO (ideal para emplear el starter KIT)
 
-### 🔧 Funciones
-Acá aprendés algo fundamental: el concepto de "subrutina", de código reutilizable. "Llamar" a una función y "retornar" cuando termina. Es el mismo concepto que en un PLC se llama GOSUB. Pero ahora lo ves, lo encastrás, lo entendés.
+### Nuevos Bloques de funciones
 
-### 🔷 Control
-Los caminos del programa. Acá están los "si... entonces", los "si... sino", los bucles "repetir N veces", "mientras...", "para...". Acá el programa decide, bifurca, itera. Es la lógica misma.
-
-### 🟢 Lógica
-Las operaciones booleanas: Y, O, NO, comparaciones. Acá decis cuándo se enciende algo, cuándo se apaga, cuándo el programa va por un camino u otro.
-
-### 📦 Variables y 🧮 Matemática
-Donde guardás valores (V0 a V9) y hacés cuentas (sumar, restar, multiplicar, mapear rangos,azar). Acá el programa "recuerda" y "calcula".
-
-### 🔘 Entradas
-Los ojos del sistema: botones, sensores, el mundo físico. Botones I1 a I7, entradas analógicas A0 y A1.
-
-### 💡 Salidas
-Las manos del sistema: luces, reles, actuadores. Salidas Q1 a Q5, control PWM.
-
-### ⏱ Tiempo y ⏳ Timers
-Esperar, medir tiempo, temporizadores que encienden o apagan con retardo. El tiempo es clave en todo automatismo.
-
-### 🔢 Contadores
-Contar cosas: impulsos, eventos, partes. Contadores ascendentes, descendentes, con límite.
-
-### 🖥 LCD
+- 🖥 ***LCD***
 La pantalla donde el sistema te habla. Escribir texto, mostrar números, mostrar caras (feliz, triste, sorprendida). Un niño puede hacer que su proyecto "exprese" emociones.
 
-### 🎵 Sonido
+- 🎵 ***Sonido***
 El buzzer para hacer beeps, tonos, notas musicales, melodías predefinidas. Un piano con botones, una alarma, una canción de cumpleaños.
 
-### ⚙️ Motores
+- ⚙️ ***Motores***
 Control de motor DC (con puente H), servo, PWM. Mover cosas reales.
 
-### 🌡 Sensores
+- 🌡 ***Sensores***
 LM35 (temperatura), fotoresistencia (luz), HC-SR04 (distancia), joystick, sensor de lluvia, sensor de obstáculos. Todo lo que el entorno pueda aportar como información.
 
-### 📻 Serial/Radio
+- 📻 ***Serial/Radio***
 Comunicación: enviar y recibir datos por USB o por radio (SoftwareSerial). El sistema hablando con el exterior.
 
-### 🎮 Juego
+- 🎮 ***Juego***
 Esto es lo más lindo: sprites, movimiento, colisiones, puntuación, vidas. Un niño puede construir su propio juego en el LCD y sentir que creó algo suyo.
 
-### 📌 Pines
-Control directo de pines para cuando necesitás algo específico.
 
 ---
 
