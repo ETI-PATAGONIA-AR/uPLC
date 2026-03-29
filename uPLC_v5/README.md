@@ -46,7 +46,7 @@ El display LCD muestra en tiempo real el estado de todas las entradas, salidas y
 
 ## Un proyecto para compartir
 
-uPLCv6, al igual que ProfeAI (un profe particular con IA), nació en ETI Patagonia como herramienta pedagógica. Su idea es la integracion y empleo en escuelas primarias, secundarias, en escuelas de oficios técnicos, en cursos de capacitación, en el taller del técnico experimentado que quiere entender microcontroladores, en el aula del niño que quiere ir más allá del Minecraft.
+uPLCv5/uPLCv6, al igual que ProfeAI (un profe particular con IA), nació en ETI Patagonia como herramienta pedagógica. Su idea es la integracion y empleo en escuelas primarias, secundarias, en escuelas de oficios técnicos, en cursos de capacitación, en el taller del técnico experimentado que quiere entender microcontroladores, en el aula del niño que quiere ir más allá del Minecraft.
 
 Los ejemplos incluidos van desde lo más simple (LED parpadeando) hasta lo más divertido (juego de dados, piano, melodías). Cada uno es un peldaño.
 
