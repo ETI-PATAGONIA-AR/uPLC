@@ -1,30 +1,5 @@
 # uPLCv6 Blocks 🎮
 
-## El puente entre dos mundos
-
-Había una vez un electricista que toda su vida diseñó circuitos con relés, contactores y temporizadores mecánicos. Escuchaba el zumbido característico de las bobinas zumbando por suciedad, el tableteo cuando algo se pegaba, y sabía detectar el cable recalentado por el color del aislante e incluso, sus tester naturales (sus manos y olfato)... Esa era la vieja escuela; Montaba tableros con lógica cableada, probaba con multímetro y pinza amperométrica, y dormía tranquilo sabiendo que sus automatismos funcionaban sin bugs/errores, ni actualizaciones. Hoy, a sus 60 años, ve el mundo cambiar: los PLCs ahora se programan en ladder, pero también en bloques, en código... y él se quedó en el medio, sin puente hacia el otro lado.
-
-Había una vez un nene de 10 años que jamás vio un relé, jamás olió un motor sobrecalentado o escucho el tableteo de un contactor, pero sí sabe desbloquear un celular antes que su abuelo. Juega, crea, comparte. Pero cuando quiere hacer un proyecto real -encender una luz, sensar la temperatura, mover un motor- el salto parece imposible: tiene que aprender programación, sintaxis, compilación... un mundo abstracto que no le conecta con lo tangible.
-
-**uPLCv6 Blocks & Ladder** es ese puente.
-
-No es solo un editor de bloques. Es una herramienta que busca acortar la brecha tecnológica entre quienes aprendieron con lógica de contactos y quienes nacieron con pantallas táctiles. Es un espacio donde un veterano de la industria puede entender a su nieto, y donde un niño puede mostrarle a su abuelo que "programar" no es tan distinto de "conectar cables".
-
----
-
-## Dos modos, un mismo objetivo
-
-| Modo | Para quién es | Cómo se programa |
-|------|---------------|------------------|
-| **🎮 Blocks** | Niños, principiantes, adultos sin experiencia previa | Arrastrás y encastrás bloques visuales |
-| **⚡ Ladder** | Técnicos, electricistas, veteranos de la industria | Dibujás contactos y bobinas como en un PLC |
-
-Ambos generan código Arduino (.ino) listo para cargar en tu placa.
-
-Puedes ver un video de uPLC Blocks en: https://youtu.be/49mqdL1b_lU
-
----
-
 ## Modo Bloques 
 
 <img width="1366" height="768" alt="uplc_v6_Bloques" src="https://github.com/user-attachments/assets/a8c417ce-14e6-4b73-891d-5cbf71faf683" />
@@ -91,53 +66,6 @@ Esto es lo más lindo: sprites, movimiento, colisiones, puntuación, vidas. Un n
 
 ### 📌 Pines
 Control directo de pines para cuando necesitás algo específico.
-
----
-
-
-
-## ⚡ Modo Ladder: el lenguaje del técnico
-
-<img width="1366" height="976" alt="uplc_v6_Ladder" src="https://github.com/user-attachments/assets/01e3e565-b5f3-4215-a3d9-85c30149e720" />
-
-Si venís del mundo de los PLCs, del Autómata programable o de los tableros con lógica cableada, el modo Ladder te va a resultar familiar. Acá no se usan bloques, se dibuja.
-
-Es la misma lógica que usabas en los painéis de relés, pero ahora se convierte automáticamente en código Arduino. Y lo mejor: si ya sabés ladder, no tenés que aprender nada nuevo para empezar a programar microcontroladores.
-
-### Elementos disponibles en Ladder
-
-| Elemento | Descripción |
-|----------|-------------|
-| **NO (Contacto Normally Open)** | Se activa cuando la entrada está en HIGH |
-| **NC (Contacto Normally Closed)** | Se activa cuando la entrada está en LOW |
-| **COIL (Bobina)** | Activa una salida cuando hay continuidad |
-| **COIL_NC (Bobina negada)** | Desactiva la salida |
-| **COIL_RM (Registro de memoria)** | Guarda el estado (como un relay auxiliar) |
-| **TON (Timer ON-Delay)** | Temporizador que enclava al activar |
-| **TOF (Timer OFF-Delay)** | Temporizador que desactiva con retardo |
-| **CTU (Contador ascendente)** | Cuenta impulsos hacia arriba |
-| **CTD (Contador descendente)** | Cuenta impulsos hacia abajo |
-| **CTR (Reset contador)** | Reinicia el contador a cero |
-| **CMP_GT, CMP_LT, CMP_EQ** | Comparadores: mayor, menor, igual |
-| **FUN_AND, FUN_OR, FUN_NOT** | Funciones booleanas |
-| **ADD, SUB, MUL, DIV** | Operaciones matemáticas |
-| **SET_VAR** | Guardar valor en variable |
-| **ADC** | Leer entrada analógica |
-| **PWM** | Salida con modulación por ancho de pulso |
-| **MB_SLAVE, MB_READ, MB_WRITE** | Comunicación Modbus RS485 |
-| **PID** | Controlador proporcional-integral-derivativo |
-
-### Hardware Compatible (Ladder)
-
-- 7 Entradas digitales: I1 a I7
-- 5 Salidas digitales: Q1, Q2, Q4, Q5, Q6
-- 1 Salida PWM: Q3
-- 2 Entradas analógicas: A0, A1
-- Display LCD I2C 20x4 (dirección 0x27)
-- Comunicación Modbus RTU (RS485)
-- 10 Registros Modbus: MB0 a MB9
-
-El display LCD muestra en tiempo real el estado de todas las entradas, salidas y valores analógicos.
 
 ---
 
