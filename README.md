@@ -1,4 +1,4 @@
-# uPLC - Conversor Ladder a Arduino
+# uPLC - Interpete Conversor Ladder a Arduino / Bloques a Arduino
 
 <img width="626" height="511" alt="uPLC" src="https://github.com/user-attachments/assets/b1a2672d-cf28-41fe-b1bf-485c729088b0" />
 
