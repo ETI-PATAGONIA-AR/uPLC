@@ -34,20 +34,13 @@ mundo de los microcontroladores.
 
 Mi más sincero agradecimiento a Massimo Banzi, David Cuartielles, Tom Igoe, Gianluca Martino y David Mellis. Su visión no solo creó una placa, sino un lenguaje universal que hoy nos permite llevarte este interprete para la programación de un control lógico programable (PLC) a tu aula y cada escritorio mediante uPLC.
 
-<img width="2851" height="976" alt="uPLC" src="https://github.com/user-attachments/assets/f7178b6f-e769-4e0a-9811-61ec0d319e87" />
-
-[![Ver el video de la version LADDER en YouTube](https://img.youtube.com)](https://www.youtube.com/watch?v=C1CCBDz9oY0)
-
-[![Ver el video de la version Blocks en YouTube](https://img.youtube.com)](https://www.youtube.com/watch?v=49mqdL1b_lU)
-
-[![Ver un DEMO de juegos con la version Blocks en YouTube](https://img.youtube.com)](https://www.youtube.com/watch?v=15fIcUH5IJs)
-
-
 ## El puente entre dos mundos
 
 Había una vez un electricista que toda su vida diseñó circuitos con relés, contactores y temporizadores mecánicos. Escuchaba el zumbido característico de las bobinas zumbando por suciedad, el tableteo cuando algo se pegaba, y sabía detectar el cable recalentado por el color del aislante e incluso, sus tester naturales (sus manos y olfato)... Esa era la vieja escuela; Montaba tableros con lógica cableada, probaba con multímetro y pinza amperométrica, y dormía tranquilo sabiendo que sus automatismos funcionaban sin bugs/errores, ni actualizaciones. Hoy, a sus 60 años, ve el mundo cambiar: los PLCs ahora se programan en ladder, pero también en bloques, en código... y él se quedó en el medio, sin puente hacia el otro lado.
 
 Había una vez un nene de 10 años que jamás vio un relé, jamás olió un motor sobrecalentado o escucho el tableteo de un contactor, pero sí sabe desbloquear un celular antes que su abuelo. Juega, crea, comparte. Pero cuando quiere hacer un proyecto real -encender una luz, sensar la temperatura, mover un motor- el salto parece imposible: tiene que aprender programación, sintaxis, compilación... un mundo abstracto que no le conecta con lo tangible.
+
+<img width="2851" height="976" alt="uPLC" src="https://github.com/user-attachments/assets/f7178b6f-e769-4e0a-9811-61ec0d319e87" />
 
 **uPLCv6 Blocks & uPLCv5 Ladder** es ese puente.
 
@@ -63,6 +56,12 @@ No es solo un editor de bloques. Es una herramienta que busca acortar la brecha 
 | **⚡ Ladder** | Técnicos, electricistas, veteranos de la industria | Dibujás contactos y bobinas como en un PLC |
 
 Ambos generan código Arduino (.ino) listo para cargar en tu placa.
+
+[![Ver el video de la version LADDER en YouTube](https://img.youtube.com)](https://www.youtube.com/watch?v=C1CCBDz9oY0)
+
+[![Ver el video de la version Blocks en YouTube](https://img.youtube.com)](https://www.youtube.com/watch?v=49mqdL1b_lU)
+
+[![Ver un DEMO de juegos con la version Blocks en YouTube](https://img.youtube.com)](https://www.youtube.com/watch?v=15fIcUH5IJs)
 
 ![PCB1](https://github.com/user-attachments/assets/cdef1875-237e-40d4-a2ae-8b6ee202cb1a)
 
