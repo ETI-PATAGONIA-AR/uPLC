@@ -63,6 +63,8 @@ Ambos generan código Arduino (.ino) listo para cargar en tu placa.
 
 [![Ver un DEMO de juegos con la version Blocks en YouTube](https://img.youtube.com)](https://www.youtube.com/watch?v=15fIcUH5IJs)
 
+[![Ver un Ejemplo de como implementar SubProgramas (Funciones) con la version Blocks en YouTube](https://img.youtube.com)](https://www.youtube.com/watch?v=N7N2FZKEy5g)
+
 ![PCB1](https://github.com/user-attachments/assets/cdef1875-237e-40d4-a2ae-8b6ee202cb1a)
 
 ![PCB2](https://github.com/user-attachments/assets/c38c6cb8-3e8a-41b8-955d-9b668b87bc50)
