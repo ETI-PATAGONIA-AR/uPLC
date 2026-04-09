@@ -1,6 +1,6 @@
 # uPLC - Conversor Ladder a Arduino / Bloques a Arduino
 
-<img width="626" height="511" alt="uPLC" src="https://github.com/user-attachments/assets/b1a2672d-cf28-41fe-b1bf-485c729088b0" />
+<img width="935" height="391" alt="e_book_uPLC" src="https://github.com/user-attachments/assets/b2f5c9c5-4906-4d7f-973d-3da76ca0347b" />
 
 El campo de la automatización y control por instrumental, es un campo muy amplio y si bien, hasta hoy en día siguen
 evolucionando con las nuevas innovaciones tecnológicas, los principios del control, son siempre los mismos. Los avances en
