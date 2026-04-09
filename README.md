@@ -48,12 +48,13 @@ No es solo un editor de bloques. Es una herramienta que busca acortar la brecha 
 
 ---
 
-## Dos modos, un mismo objetivo
+## Tress modos, un mismo objetivo
 
 | Modo | Para quién es | Cómo se programa |
 |------|---------------|------------------|
-| **🎮 Blocks** | Niños, principiantes, adultos sin experiencia previa | Arrastrás y encastrás bloques visuales |
-| **⚡ Ladder** | Técnicos, electricistas, veteranos de la industria | Dibujás contactos y bobinas como en un PLC |
+| **🎮 BLOCKSv6** | Niños, principiantes, adultos sin experiencia previa | Arrastrás y encastrás bloques visuales |
+| **⚡ LADDERv5.3** | Principiantes, Adultos sin experiencia previa, Técnicos, electricistas, veteranos de la industria | Dibujás contactos y bobinas como en un PLC |
+| **⚡LADDERvPRO** | Técnicos, electricistas, veteranos de la industria | Dibujás contactos y bobinas como en un PLC |
 
 Ambos generan código Arduino (.ino) listo para cargar en tu placa.
 
