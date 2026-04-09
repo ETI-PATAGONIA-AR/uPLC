@@ -88,37 +88,7 @@ Ambos generan código Arduino (.ino) listo para cargar en tu placa.
 
 <img width="305" height="431" alt="eBook_4" src="https://github.com/user-attachments/assets/a32f61e6-0acd-4aad-b13f-32941dbccb77" />
 
---- 
-
-## 🆕 Novedades en la version BLOCKS v6:
-
-## Nuevas Características
-
-- Integracion del sistema para el hardware Arduino UNO (ideal para emplear el starter KIT)
-
-### Nuevos Bloques de funciones
-
-- 🖥 ***LCD***
-La pantalla donde el sistema te habla. Escribir texto, mostrar números, mostrar caras (feliz, triste, sorprendida). Un niño puede hacer que su proyecto "exprese" emociones.
-
-- 🎵 ***Sonido***
-El buzzer para hacer beeps, tonos, notas musicales, melodías predefinidas. Un piano con botones, una alarma, una canción de cumpleaños.
-
-- ⚙️ ***Motores***
-Control de motor DC (con puente H), servo, PWM. Mover cosas reales.
-
-- 🌡 ***Sensores***
-LM35 (temperatura), fotoresistencia (luz), HC-SR04 (distancia), joystick, sensor de lluvia, sensor de obstáculos. Todo lo que el entorno pueda aportar como información.
-
-- 📻 ***Serial/Radio***
-Comunicación: enviar y recibir datos por USB o por radio (SoftwareSerial). El sistema hablando con el exterior.
-
-- 🎮 ***Juego***
-Esto es lo más lindo: sprites, movimiento, colisiones, puntuación, vidas. Un niño puede construir su propio juego en el LCD y sentir que creó algo suyo.
-
-
 ---
-
 
 ### PROXIMA ACTUALIZACION DE uPLC
 1. ✅ Soporte para hardware con Arduino NANO
