@@ -2,6 +2,13 @@
 
 <img width="935" height="391" alt="e_book_uPLC" src="https://github.com/user-attachments/assets/b2f5c9c5-4906-4d7f-973d-3da76ca0347b" />
 
+[![Python](https://img.shields.io/badge/Python-3.10+-blue)](https://python.org)
+[![License](https://img.shields.io/badge/Licencia-MIT-green)](#licencia)
+[![Demo version LADDER en YouTube en YouTube](https://img.shields.io/badge/▶_Ver_demo-YouTube-red)](https://www.youtube.com/watch?v=C1CCBDz9oY0)
+[![Demo version Blocks en YouTube](https://img.shields.io/badge/▶_Ver_demo-YouTube-red)](https://www.youtube.com/watch?v=49mqdL1b_lU)
+[![Demo juegos con la version Blocks en YouTube](https://img.shields.io/badge/▶_Ver_demo-YouTube-red)](https://www.youtube.com/watch?v=15fIcUH5IJs)
+[![Demo como implementar SubProgramas (Funciones) con la version Blocks en YouTube](https://img.shields.io/badge/▶_Ver_demo-YouTube-red)](https://www.youtube.com/watch?v=N7N2FZKEy5g)
+
 El campo de la automatización y control por instrumental, es un campo muy amplio y si bien, hasta hoy en día siguen
 evolucionando con las nuevas innovaciones tecnológicas, los principios del control, son siempre los mismos. Los avances en
 la tecnología software, nos han demostrado más de una vez, que los intérpretes de lenguaje son una estrategia para poder
@@ -58,36 +65,29 @@ No es solo un editor de bloques. Es una herramienta que busca acortar la brecha 
 
 Ambos generan código Arduino (.ino) listo para cargar en tu placa.
 
-[![Ver el video de la version LADDER en YouTube](https://img.youtube.com)](https://www.youtube.com/watch?v=C1CCBDz9oY0)
+---
 
-[![Ver el video de la version Blocks en YouTube](https://img.youtube.com)](https://www.youtube.com/watch?v=49mqdL1b_lU)
-
-[![Ver un DEMO de juegos con la version Blocks en YouTube](https://img.youtube.com)](https://www.youtube.com/watch?v=15fIcUH5IJs)
-
-[![Ver un Ejemplo de como implementar SubProgramas (Funciones) con la version Blocks en YouTube](https://img.youtube.com)](https://www.youtube.com/watch?v=N7N2FZKEy5g)
-
-![PCB1](https://github.com/user-attachments/assets/cdef1875-237e-40d4-a2ae-8b6ee202cb1a)
-
-![PCB2](https://github.com/user-attachments/assets/c38c6cb8-3e8a-41b8-955d-9b668b87bc50)
-
-![PCB3](https://github.com/user-attachments/assets/1df96635-5805-4548-b157-f8a4c84b3d90)
-
-<img width="901" height="633" alt="simu_uPLC_v5" src="https://github.com/user-attachments/assets/ab5d77d6-26f9-4c23-9075-6391f31e70d1" />
-
-<img width="1366" height="720" alt="Ctl_VENTILACION_SIMU" src="https://github.com/user-attachments/assets/27719060-fc7e-43a2-91ae-bb8316cdf97d" />
-
-## 🆕 Novedades en la version LADDER v5.1:
+## 🆕 Novedades en la version LADDER v5.3:
 
 ## Curso Manual de uPLC
 1. ✅ el nuevo manual que adjunto, inicia con un breve curso de programación ladder, y con ejemplos prácticos les enseño a usar cada modulo de función de uPLC.
 
 <img width="303" height="429" alt="eBook_1" src="https://github.com/user-attachments/assets/08143343-571c-4278-baed-fc7b7bb8dfd4" />
-
 <img width="305" height="431" alt="eBook_2" src="https://github.com/user-attachments/assets/0c611627-e288-4638-82e9-f22707b53d3d" />
-
 <img width="305" height="431" alt="eBook_3" src="https://github.com/user-attachments/assets/ffd868cd-2083-4990-9dc0-f51d29bb30c0" />
-
 <img width="305" height="431" alt="eBook_4" src="https://github.com/user-attachments/assets/a32f61e6-0acd-4aad-b13f-32941dbccb77" />
+
+---
+
+## 🆕 Novedades en la version Blocks v6:
+
+## Curso Manual de uPLC
+1. ✅ el nuevo manual que adjunto, inicia con un breve curso de programación blocks, y con ejemplos prácticos les enseño a usar cada modulo de función de uPLC.
+
+<img width="305" height="431" alt="Block_1" src="https://github.com/user-attachments/assets/163d8f28-3eb7-4c0b-9e9c-27402a795d52" />
+<img width="305" height="431" alt="Block_2" src="https://github.com/user-attachments/assets/038183b6-183c-4522-9e81-6c046aeded4c" />
+<img width="305" height="431" alt="Block_3" src="https://github.com/user-attachments/assets/d90c5f19-7941-4396-b46e-11e682d7a935" />
+<img width="305" height="431" alt="Block_4" src="https://github.com/user-attachments/assets/c7bd9ca5-df9d-4d34-8d19-816f4a06de51" />
 
 ---
 
@@ -99,4 +99,18 @@ Ambos generan código Arduino (.ino) listo para cargar en tu placa.
 ## Soporte Técnico
 
 ETI Patagonia - prof.martintorres@educ.ar
+
+
+
+
+
+![PCB1](https://github.com/user-attachments/assets/cdef1875-237e-40d4-a2ae-8b6ee202cb1a)
+
+![PCB2](https://github.com/user-attachments/assets/c38c6cb8-3e8a-41b8-955d-9b668b87bc50)
+
+![PCB3](https://github.com/user-attachments/assets/1df96635-5805-4548-b157-f8a4c84b3d90)
+
+<img width="901" height="633" alt="simu_uPLC_v5" src="https://github.com/user-attachments/assets/ab5d77d6-26f9-4c23-9075-6391f31e70d1" />
+
+<img width="1366" height="720" alt="Ctl_VENTILACION_SIMU" src="https://github.com/user-attachments/assets/27719060-fc7e-43a2-91ae-bb8316cdf97d" />
 
