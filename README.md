@@ -65,6 +65,106 @@ No es solo un editor de bloques. Es una herramienta que busca acortar la brecha 
 
 Ambos generan código Arduino (.ino) listo para cargar en tu placa.
 
+## 🧩 Comparativa de Versiones uPLC
+
+| ⚙️ Característica          | 🟢 uPLC v5.3                     | 🟡 uPLC BLOCKS                         | 🔴 uPLC PRO                      |
+|--------------------------|----------------------------------|---------------------------------------|----------------------------------|
+| 🧠 Enfoque               | 🔧 PLC clásico (Ladder)          | 🧩 Programación visual por bloques     | 🚀 PLC avanzado                  |
+| 🔌 Entradas digitales    | 🟢 7 DIG                         | 🟠 Bloques de entradas                | 🟢 6 DIG + ⚡ INT                |
+| 📊 Entradas analógicas   | 🟢 2 ADC                         | 🟠 Bloques ADC                        | 🟢 2 ADC                         |
+| ⚡ Salidas digitales     | 🟢 7 DIG                         | ⬛ Bloques de salida                  | 🟢 7 DIG                         |
+| 🎛️ Salidas multifunción | 🟡 1 canal                       | ⚙️ Bloques de actuadores             | 🔴 4 canales                     |
+| ⏱️ Temporizadores       | ⏱ TON / TOF / DELAY              | ⏱ Categoría Tiempo                   | ⏱ TON / TOF / DELAY              |
+| 🔢 Contadores           | 🔢 CTU / CTD / CTR               | 🔢 Categoría Contadores              | 🔢 CTU / CTD / CTR               |
+| 🔷 Lógica / Control     | 🔷 AND / OR / NOT + CMP          | 🔷 Control + 🟩 Lógica               | 🔷 AND / OR / NOT + CMP          |
+| 🧮 Matemáticas          | 🧮 Aritmética + MAP + PID        | 🟣 Categoría Matemática              | 🧮 Aritmética + MAP + PID        |
+| 🔴 Variables            | 🔴 V / M / C / MB                | 🔴 Categoría Variables               | 🔴 V / M / C / MB                |
+| 📡 Comunicación         | 📡 RS485 Modbus                  | 📻 Radio / Serial                    | 📡 RS232 + RS485 Modbus         |
+| 🖥️ Pantalla LCD        | 🔵 LCD 20x4 I2C                  | 🔵 Bloques LCD                       | 🔵 LCD 20x4 I2C                  |
+| ⚙️ Motores              | ⚙️ SERVO / PAP                  | ⚙️ Categoría Motores                 | ⚙️ SERVO / PAP                  |
+| 📡 Sensores             | 📡 ADC + DIG                    | 📡 Categoría Sensores                | 📡 ADC + DIG                    |
+
+### 🧠 Lectura rápida
+
+- 🟢 **uPLC v5.3** → Base sólida tipo PLC tradicional  
+- 🟡 **uPLC BLOCKS** → Ideal para enseñanza y prototipado visual  
+- 🔴 **uPLC PRO** → Máxima capacidad y control avanzado  
+
+## 🟢 uPLC v5.3
+**PLC clásico compacto**
+
+- 🔌 Entradas: C_NO - C_NC - ADC  
+- ⚡ Salidas: COIL_NA - COIL_NC - COIL_RM - PWM  
+- 🎛️ Control de actuadores: SERVO - Motor PAP - PID  
+- ⏱️ Temporizadores: TON - TOF - DELAY  
+- 🔢 Contadores: CTU - CTD - CTR  
+- 🔷 Comparadores: CMP_GT - CMP_LT - CMP_EQ  
+- 🧠 Lógica: AND - OR - NOT  
+- 🧮 Matemáticas: ADD - SUB - MUL - DIV - MAP - PID  
+- 🔴 Variables: V0/9 - M0/9 - C0/9 - MB0/9  
+- 📡 Comunicación: RS485 Modbus  
+- 🖥️ LCD: 20x4 I2C  
+
+📌 Hardware:
+- 1 salida multifunción: PWM - SERVO - Motor PAP - DIG
+- 7 salidas digitales  
+- 2 entradas ADC  
+- 7 entradas digitales  
+- 1 puerto RS485
+- LCD: Modo I/O - Modo Custom
+
+---
+
+## 🟡 uPLC BLOCKS
+**Enfoque educativo y visual 🧩**
+
+Categorías disponibles:
+
+- 🟡 Inicio  
+- 🔧 Funciones  
+- 🔷 Control  
+- 🟩 Lógica  
+- 🔴 Variables  
+- 🟣 Matemática  
+- 🟠 Entradas  
+- ⬛ Salidas  
+- ⏱ Tiempo  
+- 🔢 Contadores  
+- 🔵 Pantalla LCD  
+- 🎵 Sonido  
+- ⚙️ Motores  
+- 📡 Sensores  
+- 📻 Radio / Serial  
+- 🎮 Juego  
+- 📌 Pines  
+
+---
+
+## 🔴 uPLC PRO
+**Versión avanzada y expandida 🚀**
+
+- 🔌 Entradas: C_NO - C_NC - ADC  
+- ⚡ Entradas avanzadas: Interrupción (NA_I1 / NC_I1)  
+- ⚡ Salidas: COIL_NA - COIL_NC - COIL_RM - PWM  
+- 🎛️ Actuadores: SERVO - Motor PAP - PID  
+- ⏱️ Temporizadores: TON - TOF - DELAY  
+- 🔢 Contadores: CTU - CTD - CTR  
+- 🔷 Comparadores: CMP_GT - CMP_LT - CMP_EQ  
+- 🧠 Lógica: AND - OR - NOT  
+- 🧮 Matemáticas: ADD - SUB - MUL - DIV - MAP - PID  
+- 🔴 Variables: V0/9 - M0/9 - C0/9 - MB0/9  
+- 📡 Comunicación: RS232 + RS485 Modbus  
+- 🖥️ LCD: 20x4 I2C  
+
+📌 Hardware:
+- 4 salidas multifunción: PWM - SERVO - Motor PAP - DIG
+- 7 salidas digitales  
+- 2 entradas ADC  
+- 6 entradas digitales  
+- 1 entrada con interrupción  
+- RS232 + RS485
+- LCD: Modo I/O - Modo Custom
+
 ---
 
 ## 🆕 Novedades en la version LADDER v5.3:
