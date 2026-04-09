@@ -91,26 +91,13 @@ Ambos generan código Arduino (.ino) listo para cargar en tu placa.
 
 ---
 
-### PROXIMA ACTUALIZACION DE uPLC
-1. ✅ Soporte para hardware con Arduino NANO
-2. ✅ Soporte para Hardware con ESP32
-3. ✅ Dashboard nativo con conexión USB (ESP32-Arduino Nano) - WIFI (ESP32).
+### PROXIMA ACTUALIZACION DE uPLCvPRO
+1. ✅ Soporte para multiples SERVOS, Motores PAP, PWM
+2. ✅ Soporte para multiples formatos display LCD
+3. ✅ Nuevos Bloques de Funcion (LCD I/O - LCD Custom - Delay - Interrupciones)
+4. ✅ Comunicacion RS232 - RS485 Modbus
+5. ✅ Optimizacion de recursos de Hardware, generacion de SKETCH, y Funciones no bloqueantes
 
 ## Soporte Técnico
 
 ETI Patagonia - prof.martintorres@educ.ar
-
-
-
-
-
-![PCB1](https://github.com/user-attachments/assets/cdef1875-237e-40d4-a2ae-8b6ee202cb1a)
-
-![PCB2](https://github.com/user-attachments/assets/c38c6cb8-3e8a-41b8-955d-9b668b87bc50)
-
-![PCB3](https://github.com/user-attachments/assets/1df96635-5805-4548-b157-f8a4c84b3d90)
-
-<img width="901" height="633" alt="simu_uPLC_v5" src="https://github.com/user-attachments/assets/ab5d77d6-26f9-4c23-9075-6391f31e70d1" />
-
-<img width="1366" height="720" alt="Ctl_VENTILACION_SIMU" src="https://github.com/user-attachments/assets/27719060-fc7e-43a2-91ae-bb8316cdf97d" />
-
