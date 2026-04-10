@@ -201,3 +201,7 @@ Categorías disponibles:
 ## Soporte Técnico
 
 ETI Patagonia - prof.martintorres@educ.ar
+
+---
+### Desarrollado por:
+prof.martintorres@educ.ar
