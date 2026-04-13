@@ -8,6 +8,8 @@ Para no tener errores, seguí estos pasos para instalar y ejecutar uPLC correcta
 2. ✅ Descarga el ZIP ("INSTALADOR.zip") y descoprimir en cualquier carpeta. Se recomienda evitar rutas con espacios o caracteres especiales.
 3. ✅ Click en el archivo BAT ("INSTALAR.bat") e iniciara la instalacion automaticamente. El proceso puede tardar unos minutos.
 No cierres la ventana hasta que aparezca el mensaje de finalización...
+
+[![Ver video en YouTube](https://img.shields.io/badge/▶_Ver_demo-YouTube-red)](https://youtu.be/_Y_dr0yUsLM)
    
 <img width="1115" height="628" alt="Paso3_a" src="https://github.com/user-attachments/assets/ffde6428-b53c-4e19-972d-c791c96d4e1e" />
 
