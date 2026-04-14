@@ -21,7 +21,7 @@ Cuando usamos uPLC, parece que estamos dibujando lógicas, pero en realidad esta
 
 ---
 
-## 🔌 La analogía clave (para entenderlo de verdad)
+## 🔌 Para para entenderlo de verdad, veamoslo de esta manera:
 Imaginá un circuito eléctrico tradicional:
 
 * Tenés cables
