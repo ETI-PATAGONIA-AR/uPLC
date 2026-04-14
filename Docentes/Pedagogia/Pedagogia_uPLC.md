@@ -12,26 +12,21 @@ Esto es un error pedagógico... Un alumno no piensa inicialmente en estructuras 
 
 ---
 
-## 🧠 Enfoque correcto
+# 🧠 Enfoque correcto
 
 > Problema real → lenguaje natural → lógica → representación → código
 
-## ⚠️ Ahora, la primer afirmación no esta muy lejos de un metodo valido de enseñanza; Veamos que estaria acertado y armemos en conjunto una ideal global...
+### ⚠️ Ahora, la primer afirmación no esta muy lejos de un metodo valido de enseñanza; Veamos que estaría acertado y armemos en conjunto una ideal global para sacar algo en limpio de todo esto...
 
-### Este planteo sería mas sólido:
-
+***Este planteo sería mas sólido:***
 - Forzar al alumno a pensar antes de programar ✔️
 - Hacerlo preguntarse “qué pasa si…” ✔️
 - Entender que la herramienta (uPLC) no reemplaza el razonamiento ✔️
 - Darle peso al rol del docente ✔️
 
-Todo eso es correcto y, de hecho, es lo que separa aprender a “usar cosas” de aprender a pensar sistemas.
+Todo eso es correcto y, de hecho, es lo que separa aprender a “usar cosas” de aprender a pensar sistemas; Pero ***Si bien el planteo inicial tiene su base solida, el problema es este:***
 
-- ❌ Dónde estás desviando (importante)
-
-### El problema es este:
-Se estaría queriendo empezar por una abstracción demasiado alta: el árbol lógico (AST).
-Un chico (o principiante) no piensa naturalmente en árboles... Piensa en:
+Se estaría queriendo empezar por una abstracción demasiado alta: el árbol lógico (AST). Recuerden siempre, que un chico (o principiante) no piensa naturalmente en árboles... Piensa en:
 
 - acciones
 - causas
