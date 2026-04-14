@@ -312,7 +312,7 @@ Todo eso también se puede representar en JSON y luego en C.
 
 ---
 
-## 🚀 La idea central, si lo tenés que decir en una frase:
+## 🚀 La idea central, si lo tengo que decir en una frase:
 
 > uPLC toma lógica visual (Ladder o Bloques), la convierte en un modelo estructurado (JSON), y a partir de eso genera código real que se ejecuta como un PLC.
 
