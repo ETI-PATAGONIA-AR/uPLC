@@ -53,8 +53,10 @@ Piensa así:
 
 Eso es narrativa, no estructura formal.
 
+---
 
-## ✅ Método pedagógico más efectivo? … Te dejo el orden que funciona mejor en la práctica:
+# ✅ Método pedagógico más efectivo? … 
+## Te dejo el orden que funciona mejor en la práctica:
 
 ### 1. 🔴 Situación concreta (NO lógica todavía)
 Ejemplo:
@@ -118,28 +120,27 @@ Porque:
 Q0 = VACIO && !FALLA;
 ```
 
-## 💣 En conclusión... 
+---
+
+# 💣 En conclusión... 
 El error común es enseñar lógica desde la forma (diagramas, árboles o código), en lugar de enseñarla desde el comportamiento.
 
 ### 🎯 Entonces, ¿qué rol juega el AST?
-No es el inicio... Es:
-
-🔧 Una herramienta de formalización y generación automática (para vos como desarrollador, no para el alumno al principio).
+No es el inicio... 🔧 Es una herramienta de formalización y generación automática (para vos como desarrollador o docente, no para el alumno al principio).
 
 ### 👨‍🏫 Rol del docente (acá está la diferencia real)
-
 El docente define el camino:
 
-❌ Camino malo: Mostrar bloques, Mostrar Ladder, Explicar símbolos...
+❌ ***Camino malo:*** Mostrar bloques, Mostrar Ladder, Explicar símbolos...
 👉 Resultado: uso mecánico
 
-⚠️ Camino largo: Explicar teoría booleana formal
+⚠️ ***Camino largo:*** Explicar teoría booleana formal
 👉 Resultado: desconexión
 
-✅ Camino correcto: Problema real, Explicación en palabras, Lógica implícita, Representación (uPLC), Validación (“¿qué pasa si…?”)
+✅ ***Camino correcto:*** Problema real, Explicación en palabras, Lógica implícita, Representación (uPLC), Validación (“¿qué pasa si…?”)
 👉 Resultado: pensamiento lógico real
 
-## 🔚 Entonces, podriamos decir que el panteo,idea inicial, esa intuición no está mal, pero ajustada sería algo así:
+### 🔚 Entonces, podriamos decir que el panteo,idea inicial, esa intuición no está mal, pero ajustada sería algo así:
 
 - No hay que empezar por el árbol lógico.
 - Hay que empezar por situaciones reales, pasar por lenguaje natural, y recién después formalizar la lógica.
