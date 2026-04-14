@@ -1,17 +1,27 @@
-# 🧠 uPLC: Cómo pensar la conversión de Ladder / Bloques a C (explicado simple)
+# 🧠 uPLC: Cómo pensamos este desarrollo para la conversión de Ladder / Bloques a C 
+
+Cuando inicié este desarrollo, no estaba pensando en convertir bloques a C... Estaba pensando en algo más concreto:
+
+> ¿Cómo acerco a chicos (y no tan chicos) al mundo de la programación y los microcontroladores sin hacerlos chocar primero con un lenguaje?
+
+Porque enseñar C, ASM o cualquier otro lenguaje… es, en la práctica, como enseñar un idioma nuevo, y todos sabemos lo que implica:
+
+>tiempo, frustración y, muchas veces, abandono.
+
+Entonces el enfoque cambió... En lugar de empezar por el lenguaje, empecé por la lógica... Arranque por el lado en que un niño (o no tan niño) piensa:
+> “Quiero que pase esto… pero si pasa esto otro, que no…”
+
+Ladder y los bloques aparecieron como el puente, y es donde este proyecto nace justamente no como un editor, sino como una forma de traducir esa lógica en algo que funcione de verdad.
 
 ## 🎯 ¿Qué estamos haciendo realmente?
 
-Cuando usamos uPLC, parece que estamos dibujando lógica…
-
-Pero en realidad estamos haciendo algo mucho más interesante:
+Cuando usamos uPLC, parece que estamos dibujando lógicas, pero en realidad estamos haciendo algo mucho más interesante:
 
 > Estamos describiendo cómo debe comportarse un sistema, y luego lo convertimos automáticamente en código ejecutable.
 
 ---
 
 ## 🔌 La analogía clave (para entenderlo de verdad)
-
 Imaginá un circuito eléctrico tradicional:
 
 * Tenés cables
@@ -19,7 +29,6 @@ Imaginá un circuito eléctrico tradicional:
 * Tenés una lámpara (salida)
 
 Si la corriente logra llegar a la lámpara → se enciende.
-
 👉 Eso es exactamente lo que representa Ladder.
 
 ---
@@ -50,10 +59,7 @@ Q0 = I0 && !I1;
 
 ## 🧱 ¿Y los bloques?
 
-Los bloques (uPLCv6Blocks) son lo mismo, pero más amigable.
-
-En lugar de ver “cables”, ves piezas que encajan.
-
+Los bloques (uPLCv6Blocks) son lo mismo, pero más amigable... En lugar de ver “cables”, ves piezas que encajan.
 Pero por dentro… es exactamente igual.
 
 ```
@@ -72,11 +78,10 @@ Q0 = I0 && !I1;
 
 ## 🧾 El rol FUNDAMENTAL del JSON
 
-Acá está el corazón de uPLC.
-
+Acá está el corazón de uPLC y practicamente fue uno de los puntos que mas tiempo me absorvio y saco canas verdes...
 Entre lo que el usuario dibuja y el código final… hay un paso invisible:
 
-> 👉 El JSON
+> 👉 El archivo "JSON"
 
 ---
 
@@ -86,7 +91,7 @@ Porque separa todo:
 
 * Lo que el usuario ve (UI)
 * Lo que el sistema entiende (lógica)
-* Lo que finalmente se ejecuta (código C)
+* Lo que finalmente se ejecuta o genera (código C)
 
 ---
 
@@ -132,7 +137,7 @@ Ese JSON permite algo enorme:
 * Generar C (Arduino)
 * Generar otros lenguajes en el futuro
 
-👉 JSON no es un detalle… es el idioma interno de uPLC.
+👉 JSON no es un detalle… es el idioma interno de uPLC... Y desarrollar todo ese vocabulario, conlleva de muchas horas de programacion.
 
 ---
 
@@ -226,9 +231,7 @@ Q0 = (I0 && I1) || I2;
 
 ---
 
-## 💡 Idea clave para explicarlo
-
-Si lo tenés que decir fácil:
+## 💡 Sintetizando, te lo explico en breve palabras:
 
 > El JSON guarda la lógica, pero el AST es lo que realmente permite entenderla y transformarla en código.
 
@@ -263,9 +266,7 @@ void loop() {
   writeOutputs();
 }
 ```
-
-Esto se repite constantemente.
-
+Esto se repite constantemente... 
 👉 Igual que un PLC real.
 
 ---
@@ -300,7 +301,6 @@ void loop() {
 ---
 
 ## 🧨 Cuando el sistema crece
-
 Ahí es donde uPLC deja de ser “educativo” y pasa a ser potente:
 
 * Memorias (SET / RESET)
@@ -312,23 +312,17 @@ Todo eso también se puede representar en JSON y luego en C.
 
 ---
 
-## 🚀 La idea central (para explicarlo en una charla)
-
-Si lo tenés que decir en una frase:
+## 🚀 La idea central, si lo tenés que decir en una frase:
 
 > uPLC toma lógica visual (Ladder o Bloques), la convierte en un modelo estructurado (JSON), y a partir de eso genera código real que se ejecuta como un PLC.
 
 ---
 
-## 🔚 Cierre
+## 🔚 Para cerrar esta breve explicacion de lo que fue el desarrollo de uPLC, recuerden que:
 
 * No es un editor gráfico
 * No es solo educativo
 * Es un **intérprete de lógica industrial**
 
 👉 Y eso es lo que lo hace potente.
-
----
-
-Este enfoque permite enseñar desde cero…
-y al mismo tiempo construir sistemas reales.
+Este enfoque permite enseñar desde cero… y al mismo tiempo construir sistemas reales.
