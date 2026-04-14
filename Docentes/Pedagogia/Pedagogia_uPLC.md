@@ -7,12 +7,8 @@ Existe un planteo o idea común pero equivocada:
 
 > “La enseñanza de lógica debería comenzar con árboles lógicos (AST)”
 
-Esto es un error pedagógico.
-
-Un alumno no piensa inicialmente en estructuras abstractas, sino en situaciones concretas.
-
-👉 El AST (Abstract Syntax Tree) no es el punto de partida,  
-es una herramienta de formalización que aparece después de entender la lógica.
+Esto es un error pedagógico... Un alumno no piensa inicialmente en estructuras abstractas, sino en situaciones concretas.
+👉 El AST (Abstract Syntax Tree) no es el punto de partida, es una herramienta de formalización que aparece después de entender la lógica.
 
 ---
 
@@ -20,38 +16,34 @@ es una herramienta de formalización que aparece después de entender la lógica
 
 > Problema real → lenguaje natural → lógica → representación → código
 
-
 ## ⚠️ Ahora, la primer afirmación no esta muy lejos de un metodo valido de enseñanza; Veamos que estaria acertado y armemos en conjunto una ideal global...
 
-### Este planteo es sólido:
+### Este planteo sería mas sólido:
 
-Forzar al alumno a pensar antes de programar ✔️
-Hacerlo preguntarse “qué pasa si…” ✔️
-Entender que la herramienta (uPLC) no reemplaza el razonamiento ✔️
-Darle peso al rol del docente ✔️
+- Forzar al alumno a pensar antes de programar ✔️
+- Hacerlo preguntarse “qué pasa si…” ✔️
+- Entender que la herramienta (uPLC) no reemplaza el razonamiento ✔️
+- Darle peso al rol del docente ✔️
 
 Todo eso es correcto y, de hecho, es lo que separa aprender a “usar cosas” de aprender a pensar sistemas.
 
-❌ Dónde estás desviando (importante)
+- ❌ Dónde estás desviando (importante)
 
-El problema es este:
-
+### El problema es este:
 Se estaría queriendo empezar por una abstracción demasiado alta: el árbol lógico (AST).
+Un chico (o principiante) no piensa naturalmente en árboles... Piensa en:
 
-Un chico (o principiante) no piensa naturalmente en árboles.
-Piensa en:
-
-acciones
-causas
-consecuencias
-situaciones concretas
+- acciones
+- causas
+- consecuencias
+- situaciones concretas
 
 Si arrancás con árboles, lo más probable es que:
-
+```
 memorice estructuras... pero no entienda comportamiento
+```
 
 ## 🧠 Cómo piensa realmente alguien que recién empieza
-
 No piensa así:
 
 ```
@@ -69,8 +61,7 @@ Eso es narrativa, no estructura formal.
 
 ## ✅ Método pedagógico más efectivo? … Te dejo el orden que funciona mejor en la práctica:
 
-1. 🔴 Situación concreta (NO lógica todavía)
-
+### 1. 🔴 Situación concreta (NO lógica todavía)
 Ejemplo:
 
 ```
@@ -80,8 +71,7 @@ Ejemplo:
 Sin símbolos. Sin AND. Sin nada.
 
 
-2. 🟡 Lenguaje natural estructurado
-
+### 2. 🟡 Lenguaje natural estructurado
 El alumno dice:
 
 ```
@@ -90,7 +80,7 @@ El alumno dice:
 
 Acá aparece la lógica, pero en palabras.
 
-3. 🟢 Traducción a lógica (recién ahora)
+### 3. 🟢 Traducción a lógica (recién ahora)
 ```
 VACIO AND NOT FALLA
 ```
@@ -103,7 +93,7 @@ OR
 NOT
 ```
 
-4. 🔵 Representación visual (Ladder o Blocks)
+### 4. 🔵 Representación visual (Ladder o Blocks)
 
 Ahora sí:
 
@@ -113,7 +103,7 @@ Ahora sí:
 👉 Esto es clave: La herramienta entra después de entender, no antes.
 
 
-5. 🟣 Recién acá: Árbol lógico (AST)
+### 5. 🟣 Recién acá: Árbol lógico (AST)
 
 Ahora sí tiene sentido decir:
 
@@ -127,18 +117,16 @@ Porque:
 - el árbol es solo otra forma de verla
 
 
-6. ⚙️ Código (último paso)
+### 6. ⚙️ Código (este es el último paso)
 
 ```
 Q0 = VACIO && !FALLA;
 ```
 
-## 💣 En conclusión...
-
+## 💣 En conclusión... 
 El error común es enseñar lógica desde la forma (diagramas, árboles o código), en lugar de enseñarla desde el comportamiento.
 
 ### 🎯 Entonces, ¿qué rol juega el AST?
-
 No es el inicio... Es:
 
 🔧 Una herramienta de formalización y generación automática (para vos como desarrollador, no para el alumno al principio).
@@ -156,7 +144,7 @@ El docente define el camino:
 ✅ Camino correcto: Problema real, Explicación en palabras, Lógica implícita, Representación (uPLC), Validación (“¿qué pasa si…?”)
 👉 Resultado: pensamiento lógico real
 
-## 🔚 Entonces, podriamos decir que el panteo,idea inicial, esa intuición no está mal, pero ajustada sería:
+## 🔚 Entonces, podriamos decir que el panteo,idea inicial, esa intuición no está mal, pero ajustada sería algo así:
 
 - No hay que empezar por el árbol lógico.
 - Hay que empezar por situaciones reales, pasar por lenguaje natural, y recién después formalizar la lógica.
