@@ -1,4 +1,7 @@
 # 🧠 Enseñar lógica con uPLC: 
+
+---
+
 ### Dejame darte un enfoque pedagógico personal, que lo veo como correcto...
 
 ## ⚠️ Aclaración importante
