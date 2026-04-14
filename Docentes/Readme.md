@@ -1,4 +1,8 @@
+--- 
+
 # 👨‍🏫 Espacio para Docentes
+
+---
 
 Este espacio está pensado como un punto de apoyo para docentes que quieran acercarse a **uPLC** y llevarlo al aula.
 
