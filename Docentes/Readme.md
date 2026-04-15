@@ -20,7 +20,6 @@ La idea es ir sumando, con el tiempo, materiales y propuestas que ayuden a traba
 Si sos docente o formás parte de una institución educativa y te interesa trabajar con **uPLC**, te invitamos a sumarte a la iniciativa.
 
 La idea es construir una comunidad donde podamos compartir experiencias, mejorar los materiales y facilitar la enseñanza de la lógica y la automatización en el aula.
-
 En este camino, el proyecto también cuenta con el acompañamiento de **CAT Electronics**, quienes se suman con la creación de contenidos y videos pedagógicos para fortalecer la propuesta educativa.
 
 Podés ponerte en contacto para:
@@ -36,6 +35,6 @@ Una vez verificada tu vinculación como docente o institución, te vamos a estar
 ---
 
 <img width="674" height="193" alt="Logos_de_ETI" src="https://github.com/user-attachments/assets/d3b06197-7724-47c3-83b2-a5c29fd93853" />
-<img width="1134" height="944" alt="Logo_CATelectronics" src="https://github.com/user-attachments/assets/ec9180e6-64d0-4f62-b4df-b3a67a40882a" />
+<img width="567" height="472" alt="Logo_CATelectronics" src="https://github.com/user-attachments/assets/ec9180e6-64d0-4f62-b4df-b3a67a40882a" />
 
 ---
