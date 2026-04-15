@@ -20,9 +20,11 @@ La idea es ir sumando, con el tiempo, materiales y propuestas que ayuden a traba
 Si sos docente o formás parte de una institución educativa y te interesa trabajar con **uPLC**, te invitamos a sumarte a la iniciativa.
 
 La idea es construir una comunidad donde podamos compartir experiencias, mejorar los materiales y facilitar la enseñanza de la lógica y la automatización en el aula.
-En este camino, el proyecto también cuenta con el acompañamiento de **CAT Electronics**, quienes se suman con la creación de contenidos y videos pedagógicos para fortalecer la propuesta educativa.
+En este camino, el proyecto también cuenta con el excelente acompañamiento y alianza con **CAT Electronics**, quienes se suman con la creación de contenidos y videos pedagógicos para fortalecer la propuesta educativa.
 
-Podés ponerte en contacto para:
+https://github.com/user-attachments/assets/ff011e1a-6b3f-431d-b991-1b00415e30a8
+
+***Podés ponerte en contacto para:***
 
 * Implementar uPLC en tu institución
 * Acceder a recursos y materiales en desarrollo
