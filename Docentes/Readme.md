@@ -34,7 +34,7 @@ Una vez verificada tu vinculación como docente o institución, te vamos a estar
 
 ---
 
-<img width="674" height="193" alt="Logos_de_ETI" src="https://github.com/user-attachments/assets/d3b06197-7724-47c3-83b2-a5c29fd93853" />
-<img width="567" height="472" alt="Logo_CATelectronics" src="https://github.com/user-attachments/assets/ec9180e6-64d0-4f62-b4df-b3a67a40882a" />
+<img width="168" height="48" alt="Logos_de_ETI" src="https://github.com/user-attachments/assets/d3b06197-7724-47c3-83b2-a5c29fd93853" />
+<img width="141" height="118" alt="Logo_CATelectronics" src="https://github.com/user-attachments/assets/ec9180e6-64d0-4f62-b4df-b3a67a40882a" />
 
 ---
