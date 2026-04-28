@@ -4,6 +4,8 @@
 
 <img width="1366" height="768" alt="uplc_v6_Bloques" src="https://github.com/user-attachments/assets/a8c417ce-14e6-4b73-891d-5cbf71faf683" />
 
+https://github.com/user-attachments/assets/5e1c871c-59c6-4b07-917a-9a745d52c4ea
+
 # Por qué bloques?
 
 Los bloques no son una simplificación child's play. Son una traducción visual de conceptos que en un ladder se dibujan y en C++ se escriben:
